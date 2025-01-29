@@ -1,23 +1,30 @@
 /* #region Form styles */
-.form-field-styles{
-    padding: 10px;    
-    border-radius: 15px;
-}
-.form-field {    
-    border: 1px solid gray;    
+.form-field-styles {
+    padding: 10px;
+    border: 1px solid rgb(250, 192, 192);
+    border-radius: 10px;
 }
 
-.form-label{
+.form-label {
     margin-top: 10px;
 }
-.form-submit{
+
+.form-submit {
     margin-top: 20px;
     background-color: rgb(2, 55, 134);
     color: #fff;
     cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
 }
-.forgot-pass-link{
+
+.form-submit:hover {
+    background-color: rgb(2, 43, 105);
+}
+
+.forgot-pass-link {
     font-weight: 600;
-    color:rgb(2, 55, 134);
+    color: rgb(2, 55, 134);
 }
+
 /* #endregion Form styles */

@@ -34,7 +34,7 @@ function Login() {
                   />
                   <a className="forgot-pass-link"  href="#">Forgot password</a>
                   
-                  <button type="submit" className="form-field-styles form-submit">
+                  <button type="submit" className="form-submit">
                       Login
                   </button>
               </form>
