@@ -1,4 +1,5 @@
-import '../css/Login.css';
+import "../css/Login.css";
+import mentorMeet from "../assets/images/online-mentor-meeting.jpg";
 
 function Login() {
   return (
@@ -11,7 +12,9 @@ function Login() {
                   your journey today!
               </p>
               <form action='#' className='login-page_form'>
-                  <label htmlFor='email' className='form-label'>Email</label>
+                  <label htmlFor='email' className='form-label'>
+                      Email
+                  </label>
                   <input
                       type='email'
                       id='email'
@@ -19,7 +22,9 @@ function Login() {
                       className='form-field-styles form-field'
                       required
                   />
-                  <label htmlFor='password' className='form-label'>Password</label>
+                  <label htmlFor='password' className='form-label'>
+                      Password
+                  </label>
                   <input
                       type='password'
                       id='password'
@@ -31,6 +36,9 @@ function Login() {
                       Login
                   </button>
               </form>
+          </div>
+          <div className='login-page_img-block'>
+              <img className="login-page_img-block_img" src={mentorMeet} alt='Mentor meeting' />
           </div>
       </div>
   );

@@ -1,17 +1,25 @@
-#login-page{
+#login-page {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(90deg, #ff9393, #eda2a2, #dcadad, #cab4b4, #b8b8b8);
 }
-.login-page_form-block{
+
+.login-page_form-block {
     width: 30%;
     padding: 3%;
+    margin: 10%;
     border-radius: 20px;
-    background-color: aquamarine;    
+    background-color: #fff;
 }
-.login-page_form{
+
+.login-page_form {
     display: flex;
     flex-direction: column;
 }
 
+.login-page_img-block_img {
+    height: 100vh;
+
+}
