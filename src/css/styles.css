@@ -16,4 +16,8 @@
     color: #fff;
     cursor: pointer;
 }
+.forgot-pass-link{
+    font-weight: 600;
+    color:rgb(2, 55, 134);
+}
 /* #endregion Form styles */
