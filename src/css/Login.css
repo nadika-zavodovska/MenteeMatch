@@ -4,7 +4,13 @@
     align-items: center;
     height: 100vh;
 }
-#login-page_form{
-    width: 70%;
+.login-page_form-block{
+    width: 50%;
+    padding: 3%;
+    border-radius: 20px;
     background-color: aquamarine;    
+}
+.login-page_form{
+    display: flex;
+    flex-direction: column;
 }
