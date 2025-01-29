@@ -1,0 +1,19 @@
+/* #region Form styles */
+.form-field-styles{
+    padding: 10px;    
+    border-radius: 15px;
+}
+.form-field {    
+    border: 1px solid gray;    
+}
+
+.form-label{
+    margin-top: 10px;
+}
+.form-submit{
+    margin-top: 20px;
+    background-color: rgb(2, 55, 134);
+    color: #fff;
+    cursor: pointer;
+}
+/* #endregion Form styles */

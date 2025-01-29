@@ -5,7 +5,7 @@
     height: 100vh;
 }
 .login-page_form-block{
-    width: 50%;
+    width: 30%;
     padding: 3%;
     border-radius: 20px;
     background-color: aquamarine;    
@@ -14,3 +14,4 @@
     display: flex;
     flex-direction: column;
 }
+

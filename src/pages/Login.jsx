@@ -11,23 +11,25 @@ function Login() {
                   your journey today!
               </p>
               <form action='#' className='login-page_form'>
-                  <label htmlFor='email'>Email</label>
+                  <label htmlFor='email' className='form-label'>Email</label>
                   <input
                       type='email'
                       id='email'
                       name='email'
-                      className='login-page_form-field'
+                      className='form-field-styles form-field'
                       required
                   />
-                  <label htmlFor='password'>Password</label>
+                  <label htmlFor='password' className='form-label'>Password</label>
                   <input
                       type='password'
                       id='password'
                       name='password'
-                      className='login-page_form-field'
+                      className='form-field-styles form-field'
                       required
                   />
-                  <button type='submit' className='login-page_form-submit'>Login</button>
+                  <button type='submit' className='form-field-styles form-submit'>
+                      Login
+                  </button>
               </form>
           </div>
       </div>
