@@ -18,7 +18,7 @@ function Login() {
                 </p>
                 <form action="#" className="login-page_form">
                     <label htmlFor="email" className="form-label">
-                        Email
+                        Email <span className="required-mark">*</span>
                     </label>
                     <input
                         type="email"
@@ -28,7 +28,7 @@ function Login() {
                         required
                     />
                     <label htmlFor="password" className="form-label">
-                        Password
+                        Password <span className="required-mark">*</span>
                     </label>
                     <input
                         type="password"
