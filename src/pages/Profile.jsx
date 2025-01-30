@@ -18,10 +18,10 @@ function Profile() {
                     />
                     <div className="profile-page_info-short">
                         <h1>User name</h1>
-                        <h2>User role - Mentee</h2>
-                        <h3>Main skills:</h3>
+                        <h2 className="font-bold">User role - Mentee</h2>
+                        <h3 className="font-bold">Main skills:</h3>
                         <div className="profile-page_main-skills">HTML, CSS, JavaScript, React</div>
-                        <h3>Experience: </h3>
+                        <h3 className="font-bold">Experience: </h3>
                         <div className="profile-page_experience">2 years</div>
                     </div>
                     <button id="editProfileBtn" className="form-submit">
