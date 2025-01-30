@@ -1,5 +1,15 @@
+:root{
+    --red-color: #ed4343;
+    --blue-color: #023786;
+    --dark-gray-color: #3F3F3F;
+
+}
+
 /* #region Form styles */
 
+.required-mark{
+    color: var(--red-color);
+}
 .form-field-styles {
     padding: 10px;
     border: 1px solid rgb(250, 192, 192);
@@ -9,10 +19,13 @@
 .form-label {
     margin-top: 10px;
 }
+textarea{
+    width: 100%;
+}
 
 .form-submit {
     margin-top: 20px;
-    background-color: rgb(2, 55, 134);
+    background-color: var(--blue-color);
     color: #fff;
     cursor: pointer;
     padding: 10px;
@@ -20,12 +33,12 @@
 }
 
 .form-submit:hover {
-    background-color: rgb(2, 43, 105);
+    background-color: var(--blue-color)
 }
 
 .forgot-pass-link {
     font-weight: 600;
-    color: rgb(2, 55, 134);
+    color: var(--blue-color)
 }
 
 /* #endregion Form styles */
@@ -33,11 +46,12 @@
 /* #region Logo styles  */
 .logo {
     font-family: "Sriracha", serif;
-    color: #ed4343;
+    color: var(--red-color);
     font-size: 2rem;
     text-shadow:  1px 0px 0px rgba(0, 0, 0, 0.5);
 }
 .logo-dark{
-    color: #3F3F3F;
+    color: var(--dark-gray-color);
 }
 /* #endregion Logo styles  */
+
