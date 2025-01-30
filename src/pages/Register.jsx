@@ -1,6 +1,6 @@
 import { useState } from "react";
 import mentorCoding from "../assets/images/mentor_coding-sm.jpg";
-import "../css/register.css";
+import "../css/Register.css";
 
 function Register() {
     const [userType, setUserType] = useState("");
@@ -24,7 +24,7 @@ function Register() {
                 </p>
                 <form action="#" className="register-page_form">
                     <label htmlFor="name" className="form-label">
-                        Name
+                        Name <span className="required-mark">*</span>
                     </label>
                     <input
                         type="text"
@@ -45,7 +45,7 @@ function Register() {
                         required
                     />
                     <label htmlFor="password" className="form-label">
-                        Password
+                        Password <span className="required-mark">*</span>
                     </label>
                     <input
                         type="password"
@@ -57,7 +57,7 @@ function Register() {
                     />
 
                     <label htmlFor="role" className="form-label">
-                        Are you a Mentor or Mentee?
+                        Are you a Mentor or Mentee? <span className="required-mark">*</span>
                     </label>
                     <select
                         name="role"
@@ -87,7 +87,9 @@ function Register() {
                     )}
                     {userType === "mentor" && (
                         <div>
-                            <label htmlFor="skills">Enter your skills:</label>
+                            <label htmlFor="skills">
+                                Enter your skills: <span className="required-mark">*</span>
+                            </label>
                             <textarea
                                 name="skills"
                                 id="skills"
