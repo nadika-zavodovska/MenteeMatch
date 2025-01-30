@@ -5,6 +5,11 @@
     height: 100vh;
     background: linear-gradient(90deg, #ff9393, #eda2a2, #dcadad, #cab4b4, #b8b8b8);
 }
+.login-page_logo-block {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
 
 .login-page_form-block {
     width: 30%;

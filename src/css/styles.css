@@ -1,4 +1,5 @@
 /* #region Form styles */
+
 .form-field-styles {
     padding: 10px;
     border: 1px solid rgb(250, 192, 192);
@@ -28,3 +29,15 @@
 }
 
 /* #endregion Form styles */
+
+/* #region Logo styles  */
+.logo {
+    font-family: "Sriracha", serif;
+    color: #ed4343;
+    font-size: 2rem;
+    text-shadow:  1px 0px 0px rgba(0, 0, 0, 0.5);
+}
+.logo-dark{
+    color: #3F3F3F;
+}
+/* #endregion Logo styles  */
