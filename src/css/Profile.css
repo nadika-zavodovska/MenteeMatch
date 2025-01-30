@@ -1,0 +1,60 @@
+/* #region Main container styles */
+#profile-page {
+    background-image: url("../assets/images/teamwork.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding-top: 6%;
+}
+
+.profile-page_info-block {
+    width: 94%;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 15px;
+    min-height: 90%;
+}
+
+/* #endregion Main container styles */
+
+/* #region Short info styles */
+.profile-page_user-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-page_user-image {
+    border-radius: 50%;
+    width: 13%;
+}
+
+#editProfileBtn {
+    margin-left: 6%;
+}
+
+.profile-page_info-short {
+    margin-left: 7%;
+}
+
+/* #endregion Short info styles */
+
+.profile-page_h3-header {
+    font-size: 1.8rem;
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0;
+    border-bottom: 2px solid rgb(184, 184, 184);
+    padding-bottom: 5px;
+}
+
+.profile-page_skill {
+    border: 1px solid var(--red-color);
+    padding: 5px;
+    border-radius: 7px;
+    margin: 0 10px 0 0;
+    box-shadow: 2px 3px 1px rgb(151, 34, 34);
+}
