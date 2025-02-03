@@ -1,7 +1,7 @@
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
-import Admin from "./pages/Admin";
+import AdminDashboard from "./pages/AdminDashboard";
 import { Routes, Route } from "react-router-dom";
 import "./css/App.css";
 
@@ -12,7 +12,7 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/profile" element={<Profile />} />
-                <Route path="/admin/dashboard" element={<Admin />} />            
+                <Route path="/admin/dashboard" element={<AdminDashboard />} />            
             </Routes>
         </>
     );
